@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Musée de l'air et de l'espace</title>
+    <link rel="stylesheet" href="TemplateData/anim.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/Buid_2.json", {onProgress: UnityProgress});
+    </script>
+    <script defer src="main.js"></script>
+  </head>
+  <body>
+
+      <div class="screen">
+        <div class="loader"></div>
+        <h1>CHARGEMENT</h1>
+      </div>
+      
+
+  <section>
+    <div class="top">
+      <div class="top--filter">
+      <div class="restart">
+        <a href="./index.html">
+          <svg width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0)">
+            <path d="M13.5431 113.56C13.2639 113.56 12.9835 113.52 12.71 113.439C11.965 113.219 11.339 112.71 10.9682 112.027C6.49471 103.784 3.69892 94.8748 2.65522 85.5468C2.56939 84.7743 2.79255 84.0007 3.27777 83.393C3.763 82.7853 4.4691 82.3962 5.24158 82.3092L19.2182 80.7471C20.8227 80.5663 22.275 81.7244 22.4558 83.3335C23.2111 90.0946 25.2378 96.5514 28.48 102.525C28.8507 103.208 28.9343 104.011 28.7134 104.756C28.4925 105.501 27.9856 106.128 27.3024 106.497L14.9404 113.205C14.5079 113.441 14.0272 113.56 13.5431 113.56ZM8.86707 87.8001C9.89017 94.3564 11.8711 100.668 14.7768 106.628L21.9957 102.711C19.5867 97.6901 17.9228 92.3892 17.029 86.888L8.86707 87.8001Z" fill="white"/>
+            <path d="M52.9828 146.59C52.6715 146.59 52.3613 146.54 52.0615 146.441C43.4533 143.591 35.5351 139.2 28.5267 133.389C27.2816 132.355 27.1088 130.508 28.1422 129.263L37.1201 118.438C37.6156 117.84 38.3297 117.463 39.1034 117.391C39.877 117.321 40.6472 117.557 41.2457 118.054C46.3349 122.273 52.0798 125.46 58.3214 127.526C59.0596 127.771 59.6695 128.297 60.0186 128.992C60.3676 129.686 60.4271 130.49 60.1834 131.228L55.7648 144.58C55.5199 145.318 54.9935 145.928 54.2988 146.277C53.8857 146.484 53.4348 146.59 52.9828 146.59V146.59ZM34.5635 130.701C39.6435 134.556 45.1996 137.638 51.1414 139.897L53.722 132.1C48.7496 130.175 44.0884 127.588 39.806 124.379L34.5635 130.701Z" fill="white"/>
+            <path d="M78.8819 150C78.1644 150 77.4686 149.736 76.9296 149.254C76.3505 148.737 76.0003 148.01 75.9568 147.234L75.1706 133.192C75.1271 132.416 75.3938 131.655 75.9122 131.076C76.4295 130.496 77.1562 130.147 77.9321 130.103C84.7379 129.722 91.2976 128.062 97.4305 125.166C98.1332 124.834 98.9388 124.797 99.6701 125.059C100.401 125.321 100.999 125.863 101.331 126.566L107.333 139.284C107.665 139.986 107.704 140.792 107.442 141.523C107.179 142.256 106.637 142.852 105.935 143.184C97.4706 147.179 88.4252 149.47 79.0467 149.995C78.9918 149.999 78.9369 150 78.8819 150V150ZM81.181 135.718L81.64 143.917C88.2466 143.261 94.6542 141.639 100.756 139.078L97.2508 131.651C92.1113 133.77 86.728 135.133 81.181 135.718Z" fill="white"/>
+            <path d="M125.851 128.041C125.108 128.041 124.392 127.758 123.848 127.249L113.588 117.63C112.407 116.524 112.348 114.67 113.455 113.489C122.657 103.672 127.724 90.8512 127.724 77.3872C127.724 48.2735 104.038 24.5876 74.9246 24.5876C68.1417 24.5876 61.329 25.9254 55.0393 28.474L60.7591 38.3812C61.2821 39.2887 61.2821 40.4045 60.7591 41.312C60.235 42.2184 59.2679 42.7769 58.2208 42.7769H15.5938C14.5467 42.7769 13.5797 42.2184 13.0567 41.312C12.5325 40.4045 12.5325 39.2887 13.0567 38.3812L34.3702 1.46484C34.8932 0.558472 35.8613 0 36.9073 0C37.9544 0 38.9215 0.558472 39.4445 1.46484L45.0097 11.1031C54.3721 6.88477 64.6569 4.66461 74.9246 4.66461C90.1292 4.66461 104.66 9.28001 116.945 18.0119C118.263 18.9491 118.574 20.779 117.635 22.0974C116.698 23.4158 114.869 23.7259 113.551 22.7875C102.262 14.7652 88.9058 10.524 74.9246 10.524C64.6386 10.524 54.3355 12.9467 45.1287 17.5301C43.7429 18.2201 42.0594 17.7132 41.2858 16.3731L36.9073 8.79021L20.6681 36.9164H53.1465L48.332 28.5782C47.9234 27.8709 47.8296 27.0252 48.071 26.2459C48.3125 25.4665 48.8687 24.8222 49.6045 24.4698C57.4575 20.7138 66.2122 18.7271 74.9246 18.7271C107.269 18.7271 133.584 45.0417 133.584 77.3872C133.584 91.3651 128.667 104.719 119.68 115.31L125.671 120.926C136.085 108.806 141.788 93.457 141.788 77.3872C141.788 63.3625 137.523 49.9706 129.452 38.6616C128.513 37.3444 128.818 35.5145 130.135 34.5749C131.453 33.6342 133.283 33.9409 134.222 35.2581C143.005 47.5662 147.647 62.1346 147.647 77.3872C147.647 95.9312 140.665 113.592 127.989 127.114C127.456 127.682 126.722 128.014 125.945 128.039C125.915 128.04 125.883 128.041 125.851 128.041V128.041Z" fill="white"/>
+            <path d="M124.273 30.9676C123.524 30.9676 122.774 30.6815 122.202 30.1093C121.058 28.9649 121.058 27.1098 122.202 25.9654C123.346 24.8221 125.202 24.8198 126.346 25.9642C127.49 27.1086 127.492 28.9637 126.347 30.107L126.346 30.1093C125.774 30.6815 125.024 30.9676 124.273 30.9676V30.9676Z" fill="white"/>
+            </g>
+            <defs>
+            <clipPath id="clip0">
+            <rect width="150" height="150" fill="white"/>
+            </clipPath>
+            </defs>
+            </svg>
+          </a>
+      </div>
+
+      <img class="falcon" src="assets/s-l300.png" alt="">
+      <div class="satellite">
+        <img src="assets/dragon.png">
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="right">
+    <img class="rocket" src="assets/falcon-heavy-render.png">
+
+      <!-- SECTION SCROLL -->
+      <section class="container_scroll">
+          <svg class="group group--one" width="106" height="62" viewBox="0 0 106 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="10.6479" y="0.370605" width="72.857" height="13.8269" rx="5" transform="rotate(45 10.6479 0.370605)" fill="white"/>
+            <rect x="44.0156" y="52.2229" width="72.857" height="13.8269" rx="5" transform="rotate(-45 44.0156 52.2229)" fill="white"/>
+            </svg>
+          <svg class="group group--two" width="106" height="62" viewBox="0 0 106 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="10.6479" y="0.370605" width="72.857" height="13.8269" rx="5" transform="rotate(45 10.6479 0.370605)" fill="white"/>
+              <rect x="44.0156" y="52.2229" width="72.857" height="13.8269" rx="5" transform="rotate(-45 44.0156 52.2229)" fill="white"/>
+          </svg>
+          <svg class="group group--three" width="106" height="62" viewBox="0 0 106 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="10.6479" y="0.370605" width="72.857" height="13.8269" rx="5" transform="rotate(45 10.6479 0.370605)" fill="white"/>
+            <rect x="44.0156" y="52.2229" width="72.857" height="13.8269" rx="5" transform="rotate(-45 44.0156 52.2229)" fill="white"/>
+          </svg>
+            
+                          
+      </section>
+      <!-- FIN SCROLL -->
+
+    <div class="circle circle--1"></div>
+    <div class="circle circle--2"></div>
+    <div class="circle circle--3"></div>
+    <div class="circle circle--4"></div>
+    
+    <!-- pop-up
+    ORGANISATION: DIV POPUP contient SVG et DIV TEST qui contient les textes et images
+      Une pop up pour chaque fenetre blanche
+    -->
+
+    <div class="pop-up one">
+       <svg width="349" height="810" viewBox="0 0 349 810" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <g filter="url(#filter0_d)">
+      <rect x="13" y="13" width="279" height="630" rx="5" fill="white" fill-opacity="0.6"/>
+      </g>
+      <defs>
+      <filter id="filter0_d" x="0" y="0" width="449" height="810" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+      <feOffset dx="2" dy="2"/>
+      <feGaussianBlur stdDeviation="7.5"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+      </filter>
+      </defs>
+      </svg>
+
+      <div class="icons">
+      <svg class="close" width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0 0V60H60V0H0ZM58 58H2V2H58V58Z" fill="white"/>
+              <path d="M16.009 45.405L30.151 31.263L44.293 45.405L45.707 43.991L31.565 29.849L45.707 15.707L44.293 14.293L30.151 28.435L16.009 14.293L14.595 15.707L28.737 29.849L14.595 43.991L16.009 45.405Z" fill="white"/>
+              </svg>
+          
+        <svg class="vocal" width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 0V60H60V0H0ZM58 58H2V2H58V58Z" fill="white"/>
+                <path d="M30 10.6035C17.9163 10.6035 8 20.2105 8 32.0195V42.0977C8 44.1816 9.73473 45.8769 11.8672 45.8769H13.1562V33.2793H11.8672C11.4131 33.2793 10.9833 33.3702 10.5781 33.5113V32.0195C10.5781 21.5994 19.3376 13.123 30 13.123C40.6624 13.123 49.4219 21.5994 49.4219 32.0195V33.5113C49.0167 33.3702 48.5869 33.2793 48.1328 33.2793H46.8438V45.8769H48.1328C50.2653 45.8769 52 44.1816 52 42.0977V32.0195C52 20.2105 42.0837 10.6035 30 10.6035Z" fill="white"/>
+                <path d="M19.6016 30.7598H18.3125C16.8886 30.7598 15.7344 31.8878 15.7344 33.2793V45.877C15.7344 47.2685 16.8886 48.3965 18.3125 48.3965H19.6016C20.3135 48.3965 20.8906 47.8324 20.8906 47.1367V32.0195C20.8906 31.3238 20.3135 30.7598 19.6016 30.7598Z" fill="white"/>
+                <path d="M41.6875 30.7598H40.3984C39.6865 30.7598 39.1094 31.3238 39.1094 32.0195V47.1367C39.1094 47.8324 39.6865 48.3965 40.3984 48.3965H41.6875C43.1114 48.3965 44.2656 47.2685 44.2656 45.877V33.2793C44.2656 31.8878 43.1114 30.7598 41.6875 30.7598Z" fill="white"/>
+        </svg>
+      </div>
+
+      <div class="test">
+
+      <div class="title">
+        Charge utile
+      </div>
+      <div>
+          Les missions Falcon Heavy livreront de grosses charges utiles en orbite dans un carénage composite, mais la fusée pourra également transporter le vaisseau spatial Dragon.
+      </div>
+      <img src="assets/SpaceX-Dragon-fr.svg" alt="">
+      <div>
+          Le carénage de la charge utile de SpaceX, une structure composite fabriquée en interne par SpaceX, protège les satellites lors de leur acheminement en orbite terrestre basse (LEO), en orbite de transfert géosynchrone (GTO) et au-delà.
+      </div>
+      </div>
+      
+    </div>
+
+    <div class="pop-up two">
+        <svg width="349" height="810" viewBox="0 0 349 810" fill="none" xmlns="http://www.w3.org/2000/svg">
+       <g filter="url(#filter0_d)">
+       <rect x="13" y="13" width="279" height="630" rx="5" fill="white" fill-opacity="0.6"/>
+       </g>
+       <defs>
+       <filter id="filter0_d" x="0" y="0" width="449" height="810" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+       <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+       <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+       <feOffset dx="2" dy="2"/>
+       <feGaussianBlur stdDeviation="7.5"/>
+       <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+       <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+       <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+       </filter>
+       </defs>
+       </svg>
+ 
+       <div class="icons">
+       <svg class="close" width="60" height="60" viewBox="0 0 60 60" fill="" xmlns="http://www.w3.org/2000/svg">
+               <path d="M0 0V60H60V0H0ZM58 58H2V2H58V58Z" fill="white"/>
+               <path d="M16.009 45.405L30.151 31.263L44.293 45.405L45.707 43.991L31.565 29.849L45.707 15.707L44.293 14.293L30.151 28.435L16.009 14.293L14.595 15.707L28.737 29.849L14.595 43.991L16.009 45.405Z" fill="white"/>
+               </svg>
+           
+         <svg class="vocal" width="60" height="60" viewBox="0 0 60 60" fill="" xmlns="http://www.w3.org/2000/svg">
+                 <path d="M0 0V60H60V0H0ZM58 58H2V2H58V58Z" fill="white"/>
+                 <path d="M30 10.6035C17.9163 10.6035 8 20.2105 8 32.0195V42.0977C8 44.1816 9.73473 45.8769 11.8672 45.8769H13.1562V33.2793H11.8672C11.4131 33.2793 10.9833 33.3702 10.5781 33.5113V32.0195C10.5781 21.5994 19.3376 13.123 30 13.123C40.6624 13.123 49.4219 21.5994 49.4219 32.0195V33.5113C49.0167 33.3702 48.5869 33.2793 48.1328 33.2793H46.8438V45.8769H48.1328C50.2653 45.8769 52 44.1816 52 42.0977V32.0195C52 20.2105 42.0837 10.6035 30 10.6035Z" fill="white"/>
+                 <path d="M19.6016 30.7598H18.3125C16.8886 30.7598 15.7344 31.8878 15.7344 33.2793V45.877C15.7344 47.2685 16.8886 48.3965 18.3125 48.3965H19.6016C20.3135 48.3965 20.8906 47.8324 20.8906 47.1367V32.0195C20.8906 31.3238 20.3135 30.7598 19.6016 30.7598Z" fill="white"/>
+                 <path d="M41.6875 30.7598H40.3984C39.6865 30.7598 39.1094 31.3238 39.1094 32.0195V47.1367C39.1094 47.8324 39.6865 48.3965 40.3984 48.3965H41.6875C43.1114 48.3965 44.2656 47.2685 44.2656 45.877V33.2793C44.2656 31.8878 43.1114 30.7598 41.6875 30.7598Z" fill="white"/>
+         </svg>
+       </div>
+ 
+       <div class="test">
+ 
+       <div class="title">
+         Deuxième étage
+       </div>
+       <div>
+          Falcon Heavy s’appuie sur la conception éprouvée de Falcon 9, qui minimise les événements de séparation des étages et optimise la fiabilité. Le moteur Merlin de deuxième étage, identique à son homologue sur Falcon 9, envoie la charge utile de la fusée en orbite après la coupure des moteurs principaux et la séparation des cœurs du premier étage.
+       </div>
+
+       <img src="assets/second_stage.png" alt="">
+
+       <div class="">
+          Le moteur peut être redémarré plusieurs fois pour placer des charges utiles dans diverses orbites, notamment une Terre basse, une orbite de transfert géosynchrone (GTO) et une orbite géosynchrone (GSO).
+
+       </div>
+       </div>
+      
+     </div>
+  
+     <div class="pop-up three">
+        <svg width="349" height="810" viewBox="0 0 349 810" fill="none" xmlns="http://www.w3.org/2000/svg">
+       <g filter="url(#filter0_d)">
+       <rect x="13" y="13" width="279" height="630" rx="5" fill="white" fill-opacity="0.6"/>
+       </g>
+       <defs>
+       <filter id="filter0_d" x="0" y="0" width="449" height="810" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+       <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+       <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+       <feOffset dx="2" dy="2"/>
+       <feGaussianBlur stdDeviation="7.5"/>
+       <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+       <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+       <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+       </filter>
+       </defs>
+       </svg>
+ 
+       <div class="icons">
+       <svg class="close" width="60" height="60" viewBox="0 0 60 60" fill="" xmlns="http://www.w3.org/2000/svg">
+               <path d="M0 0V60H60V0H0ZM58 58H2V2H58V58Z" fill="white"/>
+               <path d="M16.009 45.405L30.151 31.263L44.293 45.405L45.707 43.991L31.565 29.849L45.707 15.707L44.293 14.293L30.151 28.435L16.009 14.293L14.595 15.707L28.737 29.849L14.595 43.991L16.009 45.405Z" fill="white"/>
+               </svg>
+           
+         <svg class="vocal" width="60" height="60" viewBox="0 0 60 60" fill="" xmlns="http://www.w3.org/2000/svg">
+                 <path d="M0 0V60H60V0H0ZM58 58H2V2H58V58Z" fill="white"/>
+                 <path d="M30 10.6035C17.9163 10.6035 8 20.2105 8 32.0195V42.0977C8 44.1816 9.73473 45.8769 11.8672 45.8769H13.1562V33.2793H11.8672C11.4131 33.2793 10.9833 33.3702 10.5781 33.5113V32.0195C10.5781 21.5994 19.3376 13.123 30 13.123C40.6624 13.123 49.4219 21.5994 49.4219 32.0195V33.5113C49.0167 33.3702 48.5869 33.2793 48.1328 33.2793H46.8438V45.8769H48.1328C50.2653 45.8769 52 44.1816 52 42.0977V32.0195C52 20.2105 42.0837 10.6035 30 10.6035Z" fill="white"/>
+                 <path d="M19.6016 30.7598H18.3125C16.8886 30.7598 15.7344 31.8878 15.7344 33.2793V45.877C15.7344 47.2685 16.8886 48.3965 18.3125 48.3965H19.6016C20.3135 48.3965 20.8906 47.8324 20.8906 47.1367V32.0195C20.8906 31.3238 20.3135 30.7598 19.6016 30.7598Z" fill="white"/>
+                 <path d="M41.6875 30.7598H40.3984C39.6865 30.7598 39.1094 31.3238 39.1094 32.0195V47.1367C39.1094 47.8324 39.6865 48.3965 40.3984 48.3965H41.6875C43.1114 48.3965 44.2656 47.2685 44.2656 45.877V33.2793C44.2656 31.8878 43.1114 30.7598 41.6875 30.7598Z" fill="white"/>
+         </svg>
+       </div>
+ 
+       <div class="test">
+       <div class="title" style="max-width: 349;">
+          Supports 
+       </div>
+       <div class="">
+          Falcon Heavy a été conçu pour être entièrement réutilisable. Les boosters centraux et latéraux portent des jambes d’atterrissage, qui permettront à chaque noyau d’atterrir en toute sécurité sur Terre après le décollage.
+       </div>
+       </div>
+      
+     </div>
+
+     <div class="pop-up four">
+        <svg width="349" height="810" viewBox="0 0 349 810" fill="none" xmlns="http://www.w3.org/2000/svg">
+       <g filter="url(#filter0_d)">
+       <rect x="13" y="13" width="279" height="630" rx="5" fill="white" fill-opacity="0.6"/>
+       </g>
+       <defs>
+       <filter id="filter0_d" x="0" y="0" width="449" height="810" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+       <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+       <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+       <feOffset dx="2" dy="2"/>
+       <feGaussianBlur stdDeviation="7.5"/>
+       <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+       <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+       <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+       </filter>
+       </defs>
+       </svg>
+ 
+       <div class="icons">
+       <svg class="close" width="60" height="60" viewBox="0 0 60 60" fill="" xmlns="http://www.w3.org/2000/svg">
+               <path d="M0 0V60H60V0H0ZM58 58H2V2H58V58Z" fill="white"/>
+               <path d="M16.009 45.405L30.151 31.263L44.293 45.405L45.707 43.991L31.565 29.849L45.707 15.707L44.293 14.293L30.151 28.435L16.009 14.293L14.595 15.707L28.737 29.849L14.595 43.991L16.009 45.405Z" fill="white"/>
+               </svg>
+           
+         <svg class="vocal" width="60" height="60" viewBox="0 0 60 60" fill="" xmlns="http://www.w3.org/2000/svg">
+                 <path d="M0 0V60H60V0H0ZM58 58H2V2H58V58Z" fill="white"/>
+                 <path d="M30 10.6035C17.9163 10.6035 8 20.2105 8 32.0195V42.0977C8 44.1816 9.73473 45.8769 11.8672 45.8769H13.1562V33.2793H11.8672C11.4131 33.2793 10.9833 33.3702 10.5781 33.5113V32.0195C10.5781 21.5994 19.3376 13.123 30 13.123C40.6624 13.123 49.4219 21.5994 49.4219 32.0195V33.5113C49.0167 33.3702 48.5869 33.2793 48.1328 33.2793H46.8438V45.8769H48.1328C50.2653 45.8769 52 44.1816 52 42.0977V32.0195C52 20.2105 42.0837 10.6035 30 10.6035Z" fill="white"/>
+                 <path d="M19.6016 30.7598H18.3125C16.8886 30.7598 15.7344 31.8878 15.7344 33.2793V45.877C15.7344 47.2685 16.8886 48.3965 18.3125 48.3965H19.6016C20.3135 48.3965 20.8906 47.8324 20.8906 47.1367V32.0195C20.8906 31.3238 20.3135 30.7598 19.6016 30.7598Z" fill="white"/>
+                 <path d="M41.6875 30.7598H40.3984C39.6865 30.7598 39.1094 31.3238 39.1094 32.0195V47.1367C39.1094 47.8324 39.6865 48.3965 40.3984 48.3965H41.6875C43.1114 48.3965 44.2656 47.2685 44.2656 45.877V33.2793C44.2656 31.8878 43.1114 30.7598 41.6875 30.7598Z" fill="white"/>
+         </svg>
+       </div>
+ 
+       <div class="test">
+ 
+       <div class="title">
+          Moteur Merlin
+       </div>
+       <div class="">
+          Le moteur Merlin, qui propulse les trois cœurs Falcon Heavy, a été développé en interne par SpaceX, s’appuyant sur une longue tradition de moteurs éprouvés dans l’espace. Une conception clé au cœur de Merlin a d'abord été utilisée pour le module d'atterrissage lunaire Apollo.
+       </div>
+       </div>
+     </div>
+      
+    
+    </div>
+    
+  </section>
+
+
+    <div class="webgl-content">
+      <div id="gameContainer" style="width: 1275px; height: 720px"></div>
+    </div>
+
+    <!--SECTION Triche-->
+  <div class="opac"></div>
+      <div class="slider">
+        
+        <div class="rightArrow">
+            <svg width="32" height="86" viewBox="0 0 62 106" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="0.275879" y="95.6279" width="72.857" height="13.8269" rx="5" transform="rotate(-45 0.275879 95.6279)" fill="white"/>
+              <rect x="52.1282" y="62.2603" width="72.857" height="13.8269" rx="5" transform="rotate(-135 52.1282 62.2603)" fill="white"/>
+              </svg>
+              
+        </div>
+
+        <div class="leftArrow">
+            <svg width="32" height="86" viewBox="0 0 62 106" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="61.9053" y="10.7427" width="72.857" height="13.8269" rx="5" transform="rotate(135 61.9053 10.7427)" fill="white"/>
+              <rect x="10.053" y="44.1104" width="72.857" height="13.8269" rx="5" transform="rotate(45 10.053 44.1104)" fill="white"/>
+              </svg>
+              
+        </div>
+        <div class="imgSlider">
+         
+
+        </div>
+        <p>
+             LA FALCON HEAVY VERTICALE SUR LA ZONE DE LANCEMENT 39A
+         </p>
+      </div>
+
+      <div class="rightAlt">
+        <h2>GALLERIE</h2>
+        <div class="back">
+          <svg width="27" height="82" viewBox="0 0 62 106" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="61.9053" y="10.7427" width="72.857" height="13.8269" rx="5" transform="rotate(135 61.9053 10.7427)" fill="white"/>
+          <rect x="10.053" y="44.1104" width="72.857" height="13.8269" rx="5" transform="rotate(45 10.053 44.1104)" fill="white"/>
+          </svg>
+        </div>
+        <section class="section reflight">
+        
+        <p>Premier recyclage</p> 
+        <article class="gallery">
+        <div class="image image--1"></div>
+        <div class="image image--2"></div>
+        <div class="image image--3"></div>
+        <div class="image image--4"></div>
+        <div class="image image--5"></div>
+        <div class="image image--6"></div>
+        </article>
+        <section class="section ALaunch">
+        <p>Mission 39A - 2018</p>
+        <article class="gallery">
+        <div class="image image--7"></div>
+        <div class="image image--8"></div>
+        <div class="image image--9"></div>
+        <div class="image image--10"></div>
+        <div class="image image--11"></div>
+        <div class="image image--12"></div>
+        
+        </article>
+        </section>
+        
+
+
+        </section>
+        
+      </div>
+
+  </body>
+</html>

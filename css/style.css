@@ -1,0 +1,70 @@
+@font-face {
+  font-family: "BrandonReg";
+  src: url("../assets/font/Brandon_reg.otf") format("truetype");
+}
+
+  @font-face {font-family: "BrandonLight";
+  src: url("../assets/font/Brandon_light.otf") format("truetype");
+}
+
+.fillwidth {
+  position: fixed;
+  width: auto;
+  height: 100vh;
+  z-index: -1;
+  filter: brightness(50%);
+
+}
+body {
+  overflow: hidden;
+}
+
+* {
+  position: absolute;
+}
+
+
+.flag {
+  width: 140px;
+  height: 100px;
+  top: 40px;
+  left: 1400px;
+}
+.headphone {
+  width: 140px;
+  height: 100px;
+  top: 40px;
+  left: 1545px;
+}
+
+.text__touch {
+  color: white;
+  font-family: BrandonReg;
+  font-weight: 600;
+  font-size: 85px;
+  top: 400px;
+  left: 250px;
+  width: 500px;
+  height: auto;
+  animation: disapear 1s infinite alternate-reverse;
+}
+.text__begin {
+  color: white;
+  font-family: BrandonLight;
+  font-weight: bold;
+  font-size: 50px;
+  top: 488px;
+  left: 320px;
+  width: 400px;
+  height: auto;
+}
+
+@keyframes disapear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
